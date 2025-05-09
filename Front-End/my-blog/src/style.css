@@ -1,0 +1,150 @@
+/* General container styling */
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Title styling */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4b4b4b;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  
+  /* Input fields */
+  input, select, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 10px 20px;
+    background-color: #6a5acd; /* Light Purple */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5a4bb2; /* Darker Purple */
+  }
+  
+  /* All Blog Posts Section */
+  .posts-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .post-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .post-item p {
+    margin-bottom: 10px;
+  }
+  
+  .post-item img {
+    max-width: 200px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Edit / Create New Post Page */
+  .edit-create-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Buttons for editing and deleting posts */
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .action-buttons button {
+    padding: 5px 10px;
+    background-color: #4caf50; /* Green for edit */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .action-buttons button.delete {
+    background-color: #f44336; /* Red for delete */
+  }
+  
+  .action-buttons button:hover {
+    background-color: #333;
+  }
+  
+  /* Style for Create New Post button */
+  .create-new-post-button {
+    padding: 10px 20px;
+    background-color: #6a5acd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .create-new-post-button:hover {
+    background-color: #5a4bb2;
+  }
+  
+  /* Select box and input styling */
+  select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  /* Flex layout for the action buttons (Edit, Delete) */
+  .action-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  /* Align the form elements vertically */
+  form input, form select, form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* Input text size */
+  input[type="text"], input[type="date"], select {
+    font-size: 16px;
+  }
+  
+  

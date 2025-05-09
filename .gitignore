@@ -1,0 +1,6 @@
+#Node MODULES
+Front-End/my-blog/node_modules/
+Back-End/node_modules/
+
+#Logs
+*.log
